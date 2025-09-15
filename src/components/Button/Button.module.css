@@ -1,19 +1,25 @@
 .container button {
     display: flex;
-    gap: 8px;
     align-items: center;
-    cursor: pointer;
-    padding: 13.5px 18px;
-    border-radius: 4px;
-    outline: none;
-    border: 1px solid transparent;
-    background-color: var(--purpleDark);
-    color: var(--gray200);
-    font-weight: 600;
+    justify-content: center;
+    gap: 8px;
+    background: var(--purpleDark);
+    border: none;
+    border-radius: 8px;
+    padding: 14px 20px;
     font-size: 15px;
-    transition: all .2s;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    transition: transform 0.2s ease, background 0.3s ease;
 }
 
 .container button:hover {
-    background-color: var(--purple);
+    background: var(--purple);
+    transform: scale(1.05);
+}
+
+.container svg {
+    width: 18px;
+    height: 18px;
 }

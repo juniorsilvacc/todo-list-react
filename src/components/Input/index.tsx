@@ -1,5 +1,5 @@
 import type { ChangeEvent } from "react";
-import styles from "./Button.module.css";
+import styles from "./Input.module.css";
 import AddIcon from "../../assets/add.svg?react";
 
 type Props = {
