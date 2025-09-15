@@ -6,9 +6,8 @@ import DeleteIcon from "../../assets/trash.svg?react";
 
 type Props = {
     data: Todo;
-    dataIndex: number
+    dataIndex: number;
 }
-
 
 export const TodoItem = ({ data, dataIndex }: Props) => {
     const { dispatch } = useContext(TodoContext)

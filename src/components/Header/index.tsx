@@ -15,14 +15,16 @@ export const Header = () => {
             return;
         }
 
-        dispatch({ type: 'ADD', payload: {title: inputValue, isDone: true } })
+        dispatch({ type: 'ADD', payload: {title: inputValue, isDone: false } })
         setInputValue('')
     }
 
     return (
         <div className={styles.container}>
             <div className={styles.brandContainer}>
-                <h1>TO-DO</h1>
+                <h1 className={styles.title}>
+                    My Tasks <span className={styles.emoji}>📋</span>
+                </h1>
             </div>
 
             <div className={styles.newTaskContainer}>
@@ -30,7 +32,7 @@ export const Header = () => {
                     <Input 
                         value={inputValue}
                         onChange={e => setInputValue(e.target.value)}
-                        placeholder="Adiciona uma tarefa"
+                        placeholder="Adicionar uma tarefa"
                     />
                 </div>
 
