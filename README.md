@@ -10,6 +10,10 @@ O objetivo é reforçar a aplicação prática de conceitos fundamentais e avan�
 
 ---
 
+## 📷 ScreenShot
+
+<img width="1319" height="1214" alt="Image" src="https://github.com/user-attachments/assets/6ac77138-790f-4a9c-98f3-38c67364947e" />
+
 ## Tecnologias utilizadas
 
 - Front-end: ReactJS + TypeScript + Vite
