@@ -1,6 +1,5 @@
 # 📝 To-do List
 
-Projeto desenvolvido durante o curso **ReactJS 18 com TypeScript + Projetos - Do Básico ao Avançado**.  
 O objetivo é reforçar a aplicação prática de conceitos fundamentais e avançados do ReactJS e TypeScript, explorando:
 
 - **Hooks** (`useState`, `useEffect`, `useContext`, `useReducer`)  
